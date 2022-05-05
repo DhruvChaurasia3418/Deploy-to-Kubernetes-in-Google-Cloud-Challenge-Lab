@@ -123,6 +123,27 @@ printf $(kubectl get secret cd-jenkins -o jsonpath="{.data.jenkins-admin-passwor
 
 
 
+Follow video 
+
+valkyrie-app
+
+
+gcloud source repos list
+
+==================================================================================================================================================================
+
+sed -i "s/green/orange/g" source/html.go
+
+sed -i "s/YOUR_PROJECT/$GOOGLE_CLOUD_PROJECT/g" Jenkinsfile
+
+git config --global user.email "you@example.com"             
+
+git config --global user.name "student..."                       // Username
+
+
+git add .
+git commit -m "built pipeline init"
+git push
 
 
 
